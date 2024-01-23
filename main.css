@@ -1,0 +1,28 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.product h1{
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+.product span {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.product img{
+    border: 1px solid white; 
+    box-shadow: 2px 2px 5px #000000; 
+}
